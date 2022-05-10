@@ -172,3 +172,6 @@ ps aux | grep [PROCESS]
 
 
 
+### 참고
+- [자주 사용하는 linux command](https://koos808.tistory.com/89)
+- [리눅스 top 정리 및 설명](https://zzsza.github.io/development/2018/07/18/linux-top/)
