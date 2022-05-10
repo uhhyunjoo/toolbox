@@ -2,6 +2,9 @@
 [wiki/CUDA](https://en.wikipedia.org/wiki/CUDA)
 > CUDA SDK 10.0 – 10.2 support for compute capability 3.0 – 7.5 (Kepler, Maxwell, Pascal, Volta, Turing). Last version with support for compute capability 3.x (Kepler). 10.2 is the last official release for macOS, as support will not be available for macOS in newer releases.
 
+> 3.0 ~ 7.5에 해당하는 GPU는 CUDA를 10.0~10.2에 맞게 깔면 된다는 뜻
+> 즉, 우리 V100은 CUDA 10.0부터 10.2중에 아무거나 쓰면 되는데 RCV 도커 기준으로는 CUDA10.1 에 맞춰져 있음
+
 [pytorch/versions](https://pytorch.org/get-started/previous-versions/)
 ```
 # CUDA 10.1
