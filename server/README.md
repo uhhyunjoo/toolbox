@@ -1,6 +1,6 @@
 # Linux Command
 
-### 서버 관련
+### GPU 관련
 ```
 nvidia-smi
 ```
