@@ -42,6 +42,23 @@ docker stop [CONTAINER_ID]
 docker restart [CONTAINER_ID]
 ```
 
+- 이미지 삭제하고 싶은데, 컨테이너가 사용중이라 삭제가 안될 때
+```
+docker images
+```
+```
+docker ps -a --filter ancestor=[IMAGE_ID]
+```
+```
+docker stop [CONTAINER_ID]
+```
+```
+docker rm -f [CONTAINER_ID]
+```
+```
+docker rmi [IMAGE_ID]
+```
+
 ### 디렉토리 관련
 - list directory contents [long listing format] [all] [human readable size] [columns] [sort by file size]
 ```
