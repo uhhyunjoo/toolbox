@@ -86,6 +86,9 @@ git branch
 ```
 git pull [REMOTE] [BRANCH] # git pull origin main
 ```
+```
+git push --set-upstream origin main # To push the current branch and set the remote as upstream
+```
 
 ```
 From github.com:alro923/toolbox
