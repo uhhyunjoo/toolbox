@@ -1,3 +1,15 @@
+# Install Pytorch
+[wiki/CUDA](https://en.wikipedia.org/wiki/CUDA)
+> CUDA SDK 10.0 – 10.2 support for compute capability 3.0 – 7.5 (Kepler, Maxwell, Pascal, Volta, Turing). Last version with support for compute capability 3.x (Kepler). 10.2 is the last official release for macOS, as support will not be available for macOS in newer releases.
+
+[pytorch/versions](https://pytorch.org/get-started/previous-versions/)
+```
+# CUDA 10.1
+pip install torch==1.8.1+cu101 torchvision==0.9.1+cu101 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
+```
+
+cuda / pytorch version 이 맞는 명령어로 install
+
 ## CUDA version
 
 ```
