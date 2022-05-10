@@ -12,7 +12,17 @@ pip install torch==1.8.1+cu101 torchvision==0.9.1+cu101 torchaudio==0.8.1 -f htt
 ```
 
 cuda / pytorch version 이 맞는 명령어로 install
-
+## Ubuntu version
+```
+lsb_release -a
+```
+```
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 18.04.2 LTS
+Release:        18.04
+Codename:       bionic
+```
 ## CUDA version
 
 ```
