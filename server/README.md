@@ -114,6 +114,13 @@ scp [옵션] [계정명]@[원격지IP주소]:[원본 경로 및 파일] [전송�
 ```
 scp -r -P [PORT_NUM] [USER_ID]@[SERVER_IP]:[ORIGINAL_PATH] ./
 ```
+- server to server
+```
+scp [옵션] [원본 경로 및 파일] [계정명]@[원격지IP주소]:[전송받을 위치]
+```
+```
+scp -r -P [PORT_NUM] [FILE] [USER_ID]@[SERVER_IP]:[PATH]
+```
 
 ### 다운로드 관련
 - download file with url
