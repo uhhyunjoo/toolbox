@@ -101,6 +101,12 @@ Merge made by the 'recursive' strategy.
 :q
 ```
 
+- password of github
+- Setting > Developer settings > Personal access tokens > Generate new token
+
+<img src = "https://user-images.githubusercontent.com/41139770/167782732-a61bc6e3-0e88-40d8-acb0-ef27e2b4ece8.png" width = "600" />
+
+
 ```
 (torch) hjlee@befb64e1d467:~/workspace/Github/toolbox$ git branch
 * main
