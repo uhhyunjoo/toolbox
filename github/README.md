@@ -65,6 +65,15 @@ ssh -T git@github.com
 
 <img src = "https://user-images.githubusercontent.com/41139770/167621769-3f2890b1-e515-4f22-9dad-381277b5f106.png" width = "400" />
 
+- or
+```
+ssh -T git@github.com
+Hi alro923! You've successfully authenticated, but GitHub does not provide shell access.
+```
+```
+git remote set-url origin git@github.com:alro923/toolbox.git
+```
+
 ```
 git clone git@github.com:alro923/toolbox.git
 ```
