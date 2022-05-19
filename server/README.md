@@ -99,6 +99,28 @@ ln -s [LINK_FOLDER] ./
 cp -Rf [FROM_HERE] ./
 ```
 
+- move folder [recursive] [force]
+```
+mv -Rf [FROM_HERE] ./
+```
+
+- 현재 폴더에서 폴더 개수 세기
+```
+ls -l | grep ^d | wc -l
+```
+- 현재 폴더에서 파일 개수 세기
+```
+ls -l | grep ^- | wc -l
+```
+- 현재 폴더 아래에 있는 파일 개수 세기
+```
+find . -type f | wc -l
+```
+
+![image](https://user-images.githubusercontent.com/41139770/169214773-ff61ad7e-e287-48e6-9e45-1e37315359e9.png)
+
+
+### scp 관련
 - local to server
 ```
 scp [옵션] [원본 경로 및 파일] [계정명]@[원격지IP주소]:[전송받을 위치] 
