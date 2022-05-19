@@ -128,6 +128,8 @@ scp -r -P [PORT_NUM] [FILE] [USER_ID]@[SERVER_IP]:[PATH]
 wget --no-check-certificate [DOWNLOAD_FILE_URL]
 ```
 
+### 압축 관련 (.tar)
+
 - unzip .tar file [extract files from archive] [verbose] [read from or write to archive (default : current directory]
 - [OPENBSD/tar](http://man.openbsd.org/tar)
 ```
@@ -137,6 +139,18 @@ tar xvf [FILE_NAME].tar
 tar xvf [FILE_NAME].tar -C [PATH]
 ```
 
+### 압축 관련 (.zip)
+
+- unzip .zip file
+```
+find . -name "*.zip" -exec unzip {} \;
+```
+```
+unzip \*.zip
+```
+```
+unzip [FILE_NAME].zip -d [SAVE_DIRECTORY]
+```
 
 ### 용량 관련
 - disk usage
