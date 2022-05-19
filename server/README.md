@@ -59,6 +59,13 @@ docker rm -f [CONTAINER_ID]
 docker rmi [IMAGE_ID]
 ```
 
+### 내 도커 이미지 기준
+```
+# /bin/zsh 
+make docker-base
+make docker-run
+```
+
 ### 디렉토리 관련
 - list directory contents [long listing format] [all] [human readable size] [columns] [sort by file size]
 ```
