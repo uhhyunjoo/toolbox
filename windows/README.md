@@ -4,7 +4,7 @@
 
 - 초기화할 때 네트워크 연결 x, 마소 계정 연결 x
 - 사용자 폴더 이름 한글로 되면 초기화 다시 해야됨 ㅠㅠ
-- `Ctrl` + `v` 켜놓기
+- `Windows` + `v` 켜놓기
 
 ## Install
 - Chrome, Discord, Slack, VSCode, KakaoTalk
@@ -87,3 +87,5 @@ See "man sudo_root" for details.
 
 uhhyunjoo@LAPTOP-E0O29DK4:/mnt/c/Users/uhhyunjoo$
 ```
+
+- [a-complete-guide-to-how-to-install-docker-desktop-on-windows-10/](https://www.lainyzine.com/ko/article/a-complete-guide-to-how-to-install-docker-desktop-on-windows-10/)
