@@ -4,6 +4,7 @@
 
 - 초기화할 때 네트워크 연결 x, 마소 계정 연결 x
 - 사용자 폴더 이름 한글로 되면 초기화 다시 해야됨 ㅠㅠ
+- `Ctrl` + `v` 켜놓기
 
 ## Install
 - Chrome, Discord, Slack, VSCode, KakaoTalk
@@ -64,4 +65,25 @@ To check for new updates run: sudo apt update
 This message is shown once once a day. To disable it please create the
 /home/uhhyunjoo/.hushlogin file.
 uhhyunjoo@LAPTOP-E0O29DK4:~$
+```
+
+```
+# ubuntu 상태 확인
+PS C:\Users\uhhyunjoo> wsl -l -v
+  NAME      STATE           VERSION
+* Ubuntu    Stopped         2
+
+# ubuntu 버전확인
+PS C:\Users\uhhyunjoo> wsl cat /etc/lsb-release
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=20.04
+DISTRIB_CODENAME=focal
+DISTRIB_DESCRIPTION="Ubuntu 20.04 LTS"
+
+# bash 실행
+PS C:\Users\uhhyunjoo> wsl bash
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+uhhyunjoo@LAPTOP-E0O29DK4:/mnt/c/Users/uhhyunjoo$
 ```
