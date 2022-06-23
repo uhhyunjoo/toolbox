@@ -191,6 +191,10 @@ du
 ```
 ncdu
 ```
+- disk free (file system storage info)
+```
+df -h
+```
 
 
 ### 프로세스 관련
