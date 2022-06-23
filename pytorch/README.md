@@ -24,3 +24,4 @@ breakpoint()
 
 ## To-do
 - [lightning-hydra-template](https://github.com/ashleve/lightning-hydra-template)
+- [파이토치 한국 사용자 모임](https://pytorch.kr/)
