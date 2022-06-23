@@ -24,7 +24,7 @@ git config --global user.name "hjlee"
 ```
 
 
-- show remote
+- show remote (can see url~!)
 ```
 git remote -v # 아무것도 없으면 연결 안 되어 있는 것임!
 ```
