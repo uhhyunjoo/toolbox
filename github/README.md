@@ -56,6 +56,8 @@ cat id_rsa.pub
 
 - ssh-rsa ~~~ 복사
 
+https://github.com/settings/keys
+
 <img src = "https://user-images.githubusercontent.com/41139770/167615248-fccda2bd-e5d1-4966-aec9-1fab99618780.png" width = "600" />
 
 ```
