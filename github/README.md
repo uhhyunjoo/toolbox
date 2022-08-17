@@ -1,3 +1,21 @@
+# All
+```
+git config --global user.email "alro92333@gmail.com"
+git config --global user.name "Hyunjoo Lee"
+ssh-keygen -t rsa -C "alro92333@gmail.com"
+cat /home/lhj/.ssh/id_rsa.pub
+```
+```
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFwvLfwameNSe8xdPRb+mQ1VAwi+ieN3jPRPF/N34KAmangFjWNsibiMAA6wNAqdh9y0gNTNzHv09lg76xshL5IlS4GlqEY7okU6THMC0m7QTpN4xY86stblOxBpI+21T+j9gVxXBF4C9gZkW3tfwo4ITY+ak4Gi/XL0xig922p4J8Iy5RYtoNKMwUefR8tZLJ/WkKx5TZXSUOr/ZELSyt5sFUHRz8z/KfeM5K0ac3ajCKZlTyChnWH/C44UfqfgHVJBaa42QlbfoEqeF8LJvnZj5zW9oeNbAQc6uvQMMfkd2tqtQmt/3hXlA5N0u25+zGXocahNetxCxeMyEMwq0Z alro92333@gmail.com
+```
+- 이거 복사~
+- https://github.com/settings/keys
+- 여기에 붙여넣기~
+
+
+
+-------------
+
 # Github
 - Clone
 ```
@@ -19,8 +37,8 @@ git commit -m '[COMMIT_MESSAGE]'
 
 - Config
 ```
-git config --global user.email "hjlee@rcv.sejong.ac.kr"
-git config --global user.name "hjlee"
+git config --global user.email "alro92333@gmail.com"
+git config --global user.name 'Hyunjoo Lee'
 ```
 
 
@@ -45,7 +63,7 @@ git branch -d [BRANCH]
 
 ## private repo
 ```
-ssh-keygen -t rsa -C "[EMAIL_ADDERESS]"
+ssh-keygen -t rsa -C "alro92333@gmail.com"
 ```
 ```
 cd /home/hjlee/.ssh

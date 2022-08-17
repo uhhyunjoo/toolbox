@@ -99,6 +99,7 @@ mkdir [FOLDER]
 - link [soft]
 ```
 ln -s [LINK_FOLDER] ./
+ln -s [LINK_FOLDER] [FOLDER_NAME]
 ```
 
 - copy folder [recursive] [force]
