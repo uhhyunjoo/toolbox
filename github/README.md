@@ -6,7 +6,7 @@ ssh-keygen -t rsa -C "alro92333@gmail.com"
 cat /home/uhhyunjoo/.ssh/id_rsa.pub
 ```
 ```
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCdpzuYCeqV/Vj08YC8lng/Uq/dO39m44TSSU85EWLLRUcHwswuGm0+Asp0I8x7skjjCDKIkt8kwyf/YTM8l/3dhsm/GQn9kfCGy8n0zbJwKXZIa/UBroZ0xnJO/asuutin/t2E1qulHZqgyc3dPxPrHcvAhUdfFXHPZDXczoxnLMN38grjQtFvy+zK1IEcyyHhGwjyspVODsaEAhQN99OZlXpUOQ+wI740OffZfyDRRgadWwnnmmVypk1eHwiPQpbadTzk1McWRRZMBKsZZkvbIeuhDTus3Z9Ak54VUiuU+Ewal5sl+Ghjkd8ZquJepT8o1YB0qdTfd4yy4hu6ctzsLY6L08fTBqrmEOsq3E7wlKOrJqVQKQLLo1wzhsuMt5U08mLsQgGCBq2m8CbJMTKZLYazIC06ebVws9Y6yMJqN6ORDUwUz9PSdqvwBjiGSe5LHF7W0DOqX8S7HJN/CrJmWyYs354hqb6XZEzGE/myB18qLx44CO0hqHRkQ6xmtiM= alro92333@gmail.com
+ssh-rsa 어쩌구
 ```
 - 이거 복사~
 - https://github.com/settings/keys
