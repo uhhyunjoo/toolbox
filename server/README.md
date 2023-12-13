@@ -112,6 +112,12 @@ cp -Rf [FROM_HERE] ./
 mv -Rf [FROM_HERE] ./
 ```
 
+- rename file / folder
+```
+mv test.txt retest.txt
+mv folderA folderB
+```
+
 - 현재 폴더에서 폴더 개수 세기
 ```
 ls -l | grep ^d | wc -l
