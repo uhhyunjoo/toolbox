@@ -218,6 +218,7 @@ htop
 - kill process
 ```
 kill -9 [PROCESS_ID]
+kill -9 $(lsof -t -i:[PORT_NUM]) # 해당 port 를 사용하고 있는 process kill
 ```
 
 - process status (standard syntax) [writes information] [full listing format] 
